@@ -137,3 +137,27 @@ If you offer a hosted or managed service based on this software, you must use yo
 ## Third-Party Software
 
 This project includes or depends on third-party software components licensed under their respective open-source licenses. Use of those components is governed by their own license terms.
+
+
+## 🔹 My Contribution
+
+I have implemented a simple AI-based hospital queue system.
+
+### Features Added:
+- Predicts waiting time based on number of patients
+- Suggests whether it is a good time to visit
+- Uses basic AI decision logic
+
+### How to Run:
+1. Open terminal
+2. Run:
+   python app.py
+
+### Example:
+Input:
+Patients ahead: 5  
+Avg time: 10  
+
+Output:
+Estimated waiting time: 50 minutes  
+Moderate waiting time ⚠️
